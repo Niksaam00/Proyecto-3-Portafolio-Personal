@@ -26,6 +26,9 @@
     <link rel="icon" type="image/png" href="./assests/img/inicio/icono pagia.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+    <link rel="stylesheet" href=".//assests/css/index.css">
+    <link rel="stylesheet" href=".//assests/js/jsgeneral.js">
+    <link rel="stylesheet" href=".//assests/css/proyectos.css">
 </head>
 <header>
 
@@ -48,7 +51,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="./pages/contacto.html">Contacto</a>
                 </li>
-                
+
             </ul>
         </nav>
 
@@ -58,28 +61,21 @@
 <body>
 
     <main>
-        <section id="Inicio">
-            <!-- Pequeña presentscion-->
-            <article>
-                <h3>_____________________________________________________________________________________________
-                </h3>
-                <h2>Desarrollador web</h2>
-                <img style="width: 800px;" src="./assests/img/inicio/desarrollo web inicio.jpg"
-                    alt="Analisis y Desarrollo de Software">
-                <p>Joven egresado de Analisis Y desarrollo de software de la institucion edducativa
-                    CIMM-Sogamoso(SENA) Con
-                    experiencia en manejo y creacion de paginas web, ademas a eso con conocimientos en
-                    cuanto a bases de datos y analisis de los mismos
-                </p>
-            </article>
-            <!--Invitacion a ver la hoja de vida-->
-            <article>
-                <nav>
-                    <a href="./pages/hoja-de-vida.html">Ver hoja de vida</a>
-                </nav>
-            </article>
-
-        </section>
+        <div id="titulo">
+            <h2>Desarrolador de Software</h2>
+        </div>
+        <div class="card card-row" style="max-width: 1000pxs;">
+            <img src=".//assests/img/inicio/desarrollo web inicio.jpg" class="card-img-start" alt="...">
+            <div class="card-body">
+                <h4 class="card-title">Nicolas Saavedra</h4>
+                <p class="card-text"> Joven egresado de Analisis Y desarrollo de software de la institucion edducativa
+                    CIMM-Sogamoso(SENA) Con experiencia en manejo y creacion de paginas web, ademas a eso con
+                    conocimientos en cuanto a bases de datos y analisis de los mismos</p>
+                <a href=".//pages/hoja-de-vida.html">
+                    <button>Ver hoja de vida</button>
+                </a>
+            </div>
+        </div>
 
     </main>
 
@@ -91,8 +87,10 @@
 </body>
 <footer>
 
-    <h4>@Nicolas Saavedra</h4>
-    <a href="#">Enviar mensaje</a>
+    <h3>@Nicolas Saavedra</h4>
+    <a href="#">
+        <button>Enviar mensaje</button>
+    </a>
 </footer>
 
 </html>
